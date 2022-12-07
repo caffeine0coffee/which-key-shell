@@ -56,13 +56,11 @@ def main(stdscr):
     selecting_index = 0
 
     while True:
+        stdscr.clear()
         display_items(stdscr, items, selecting_index)
-        stdscr.refresh()
 
         keycode = stdscr.getch()
-        # keycode = stdscr.getkey()
         if keycode < 0:
-            print(keycode)
             continue
 
         # move selecting cursor
@@ -78,7 +76,7 @@ def main(stdscr):
         if keycode == 27:
             stdscr.nodelay(True)
             if stdscr.getch() == -1:
-                break
+                exit(1)
             stdscr.nodelay(False)
 
         # update items / decide command
