@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "key": "g",
+      "name": "Git...",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "s",
+          "name": "status",
+          "type": "command",
+          "command": "git status"
+        },
+        {
+          "key": "a",
+          "name": "add all",
+          "type": "command",
+          "command": "git add -A"
+        }
+      ]
+    },
+    {
+      "key": "t",
+      "name": "Tmux...",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "r",
+          "name": "rename session",
+          "type": "command",
+          "command": "rename_tmux_session.sh"
+        },
+        {
+          "key": "w",
+          "name": "rename window",
+          "type": "command",
+          "command": "rename_tmux_window.sh"
+        }
+      ]
+    },
+    {
+        "key": "u",
+        "name": "Utils...",
+        "type": "bindings",
+        "bindings": [
+            {
+                "key": "k",
+                "name": "curl github ssh pubkeys to authorized_keys",
+                "type": "command",
+                "command": "curl https://github.com/caffeine0coffee.keys > ~/.ssh/authorized_keys"
+            }
+        ]
+    }
+  ]
+}
