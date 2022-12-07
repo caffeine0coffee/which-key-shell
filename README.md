@@ -9,7 +9,7 @@ Let's call things like [Spacemacs](https://www.spacemacs.org) that aren't worth 
 連続したキーストロークを階層構造で定義することができます。([config.json](https://github.com/caffeine0coffee/space-shell-shortcut/blob/main/config.json)を参照)<br/>
 Sequential keystrokes can be defined in a hierarchical structure. (See [config.json](https://github.com/caffeine0coffee/space-shell-shortcut/blob/main/config.json))
 
-# setup (for zsh)
+# Setup (for zsh)
 
 requirement: python3
 
@@ -37,3 +37,7 @@ zle -N space-shell-shortcut
 bindkey <your-favorite-key> space-shell-shortcut
 # e.g. bindkey '^G' space-shell-shortcut
 ```
+
+# Customize
+
+edit your [config.json](https://github.com/caffeine0coffee/space-shell-shortcut/blob/main/config.json)
