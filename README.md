@@ -16,7 +16,7 @@ requirement: python3
 ## 1. clone this repo
 
 ```
-git@github.com:caffeine0coffee/space-shell-shortcut.git
+git clone git@github.com:caffeine0coffee/space-shell-shortcut.git
 ```
 
 ## 2. setup `.zshrc`
