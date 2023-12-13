@@ -1,7 +1,7 @@
-# space-shell-shortcut
+# which-key-shell
 *shell shortcut launcher inspired by spacemacs*
 
-`alias` に登録する程でもないことを [Spacemacs](https://www.spacemacs.org) みたいに呼び出そう！（これいる？）<br/>
+`alias` に登録する程でもないことを [Spacemacs](https://www.spacemacs.org) みたいに呼び出そう！<br/>
 Let's call things like [Spacemacs](https://www.spacemacs.org) that aren't worth registering in `alias`!
 
 <img height="600px" src="https://user-images.githubusercontent.com/48763656/206117409-76a4ee13-9f20-4d26-a87c-3d36a343340b.gif" />
