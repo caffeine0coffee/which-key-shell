@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "key": "g",
+      "name": "Git...",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "s",
+          "name": "status short",
+          "type": "command",
+          "command": "git status -s"
+        },
+        {
+          "key": "S",
+          "name": "status",
+          "type": "command",
+          "command": "git status"
+        },
+        {
+          "key": "a",
+          "name": "add all",
+          "type": "command",
+          "command": "git add -A"
+        },
+        {
+          "key": "c",
+          "name": "commit",
+          "type": "command",
+          "command": "git commit"
+        }
+      ]
+    }
+  ]
+}
