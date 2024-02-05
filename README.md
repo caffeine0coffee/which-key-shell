@@ -38,6 +38,10 @@ bindkey <your-favorite-key> space-shell-shortcut
 # e.g. bindkey '^G' space-shell-shortcut
 ```
 
+## 3. create `.wkshell_config.json` in home directory
+
+TODO: automation
+
 # Customize
 
-edit your [config.json](https://github.com/caffeine0coffee/space-shell-shortcut/blob/main/config.json)
+copy [config.json](https://github.com/caffeine0coffee/space-shell-shortcut/blob/main/config_sample.json) to your `wkshell_config.json` and customize it.
