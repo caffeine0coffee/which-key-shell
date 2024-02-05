@@ -49,8 +49,8 @@ def get_next_items_state(items, key):
 def main(stdscr):
     global command
 
-    exec_path = os.path.dirname(__file__)
-    config_path = os.path.join(exec_path, "config.json")
+    home_path = os.path.expanduser("~")
+    config_path = os.path.join(home_path, ".wkshell_config.json")
     items = load_items_from_json_file(config_path)
 
     selecting_index = 0
